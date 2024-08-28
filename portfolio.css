@@ -4,13 +4,13 @@
 }
 .name1{
     font-size:1rem;
-    font-weight: 700;
+    font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     filter: drop-shadow(2px 2px 2px yellow);
-    color: yellow;
+    color: rgb(225, 30, 101);
     
 }
-.name1{
+.name2{
     font-size: 1rem;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
