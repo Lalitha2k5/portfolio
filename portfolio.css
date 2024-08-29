@@ -1,5 +1,8 @@
 *{
     background-color: #222;
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
     color: #f9f1f1;
 }
 .name1{
@@ -9,4 +12,15 @@
     filter: drop-shadow(5px 5px 2px pink);
     color:yellow
     
+}
+.banner{
+    background-image: url("https://occ-0-7275-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfKifMxxzLJt7q_b3OcVgOhuI5bHPnJyISd1MRVhZl1NeLid_TrwhdKtpseVDTC0p1nzXNfqMPw70o1tz7reLPjv3D5D3ASF1Sqd.jpg?r=51d&quot;");
+    background-size: cover;
+    background-position:center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.posters{
+    display: flex;
 }
