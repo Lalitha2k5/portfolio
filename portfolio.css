@@ -30,6 +30,11 @@
     height: 600px;
     color: #fff;   
 }
+.bannercontent .bannertittle img {
+    object-fit: contain;
+    max-width: 35%;
+    margin: 5% 0% 0% 0%;
+}
 .posters{
     display: flex;
     overflow-y: hidden;
