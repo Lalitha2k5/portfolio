@@ -4,6 +4,7 @@
     padding: 0;
     box-shadow: border-box;
     color: #f9f1f1;
+    box-sizing: border-box;
 }
 /*.name1{
     font-size:1rem;
@@ -27,13 +28,7 @@
     background-position:center center;
     max-width: 100%;
     background-repeat: no-repeat;
-    height: 600px;
-    color: #fff;   
-}
-.bannercontent .bannertitle img {
-    object-fit: contain;
-    max-width: 35%;
-    margin: 5% 0% 0% 0%;
+    height: 600px;  
 }
 .posters{
     display: flex;
@@ -59,4 +54,44 @@ h3{
     font-weight: 400;
     font-size: medium;
     padding: 2% 0%;
+}
+/**{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}*/
+body{
+    background-color:#111;
+    color: #fff; 
+}
+.bannercontent .bannertitle img{
+    object-fit: contain;/*autumatically fit items with respective contain*/
+    max-width: 50%;
+    
+}
+.bannercontent{
+    padding: 10% 8%;
+}
+.bannercontent .bannertitle h1{
+    font-size: 200%;
+    padding: 3% 0% 2% 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bannercontent .bannertitle h3{
+    font-size: 100%;
+    padding: 1% 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bannercontent .bannertitle p{
+    font-size: 100%;
+    max-width: 60%;
+    padding: 1% 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bannercontent .bannertitle span{
+    padding: 0% 1%;
+}
+.bannercontent .bannertitle  .user1 {
+    border: 2px solid #a3a3a3;
+    padding: 2px 4px;
 }
