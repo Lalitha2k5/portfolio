@@ -139,3 +139,44 @@ body{
     border: 2px solid #a3a3a3;
     padding: 2px 4px;
 }
+footer{
+    padding: 50px 4% 10px ;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 30px 0;
+    color: #666;
+}
+footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0px;
+}
+footer .col{
+    margin: 10px 50px;
+}
+footer .col a{
+    /*text-decoration: none; to avoid the underlines */
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px ;
+    display: block;
+}
+footer button{
+    background-color: #111;
+    border-radius: 1px;
+    border: solid 1px #fff;
+    box-shadow: none;
+    box-sizing: none;
+    color: #666;
+}
+
+select{
+    background-color: #111;
+    border-radius: none;
+    border: none;
+    color: #666;
+}
