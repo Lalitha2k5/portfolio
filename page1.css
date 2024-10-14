@@ -1,0 +1,133 @@
+*{
+    /*background-color: #222;*/
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    color: #f9f1f1;
+    box-sizing: border-box;
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 10%;
+}
+nav {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+nav .action{
+    display: flex;
+    margin: 10px 20px;
+}
+nav .action .join_now{
+    background-color:#e50914 ;
+    color: hsl(0, 0%, 100%);
+    margin: 0px 10px;
+    width: 100px;
+    padding: 2px 4px ;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+nav .action .join_now:hover{
+    background-color: #fff;
+    color: #111;
+    transition: 0.8ms;
+}
+nav .action .sign_in{
+    background: transparent;
+    color: #fff;
+    padding: 2px 4px;
+    width: 100px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+}
+nav .action .sign_in:hover{
+    background-color: #fff;
+    color: #111;
+    transition: 0.8ms;
+}
+body{
+    background-color:#111;
+    color: #fff; 
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 2% 0% 0% 0.4%;
+}
+.bannercontent .bannertitle img{
+    object-fit: contain;/*autumatically fit items with respective contain*/
+    max-width: 50%;
+    
+}
+.bannercontent{
+    padding: 10% 8%;
+}
+.bannercontent .bannertitle h1{
+    font-size: 200%;
+    padding: 3% 0% 2% 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bannercontent .bannertitle h2{
+    font-size: 100%;
+    padding: 1% 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bannercontent .bannertitle p{
+    font-size: 100%;
+    max-width: 60%;
+    padding: 1% 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bannercontent .bannertitle span{
+    padding: 0% 1%;
+}
+.bannercontent .bannertitle  .user1 {
+    border: 2px solid #a3a3a3;
+    padding: 2px 4px;
+}
+footer{
+    padding: 50px 4% 10px ;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 30px 0;
+    color: #666;
+}
+footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0px;
+}
+footer .col{
+    margin: 10px 50px;
+}
+footer .col a{
+    /*text-decoration: none; to avoid the underlines */
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px ;
+    display: block;
+}
+footer button{
+    background-color: #111;
+    border-radius: 1px;
+    border: solid 1px #fff;
+    box-shadow: none;
+    box-sizing: none;
+    color: #666;
+}
+
+select{
+    background-color: #111;
+    border-radius: none;
+    border: none;
+    color: #666;
+}
